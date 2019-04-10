@@ -1,8 +1,9 @@
-.box {
+/* Classes for Floats Practice */
+/* .box {
     height: 100px;
     width: 200px;
 }
-/* Colors */
+
 .red {
     background-color: red;
 }
@@ -21,7 +22,7 @@
 .purple {
     background-color: purple;
 }
-/* Floats */
+
 .left {
     float: left;
 }
@@ -36,4 +37,30 @@
 }
 .clear-both {
     clear: both;
+} */
+
+/* Global Styles */
+body {
+    margin: 0;
+}
+li {
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
+}
+/* Nav Styles */
+.main-nav {
+    height: 75px;
+    background-color:#333;
+}
+.logo {
+    height: 56px;
+    padding: 10px;
+}
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+.center {
+    text-align: center;
 }
