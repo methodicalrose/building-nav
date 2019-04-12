@@ -46,7 +46,11 @@ body {
 li {
     color: #fff;
     float: left;
-    padding: 14px 16px;
+    padding:14px 16px;
+}
+li:hover {
+    font-size: 30px;
+    padding: 5px 16px;
 }
 /* Nav Styles */
 .main-nav {
@@ -56,6 +60,9 @@ li {
 .logo {
     height: 56px;
     padding: 10px;
+}
+.logo:hover {
+    width: 100px;
 }
 .nav-list {
     float: right;
