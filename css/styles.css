@@ -1,17 +1,10 @@
-/* Classes for Floats Practice */
+/* Below classes were used to learn float property */
 /* .box {
     height: 100px;
     width: 200px;
 }
-
 .red {
     background-color: red;
-}
-.orange {
-    background-color: orange;
-}
-.yellow {
-    background-color: yellow;
 }
 .green {
     background-color: green;
@@ -22,7 +15,12 @@
 .purple {
     background-color: purple;
 }
-
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
 .left {
     float: left;
 }
@@ -39,35 +37,115 @@
     clear: both;
 } */
 
-/* Global Styles */
+/* Global styles */
 body {
     margin: 0;
 }
-li {
-    color: #fff;
-    float: left;
-    padding:14px 16px;
-}
-li:hover {
-    font-size: 30px;
-    padding: 5px 16px;
-}
-/* Nav Styles */
+/* End Global styles */
+
+/* Nav styles */
 .main-nav {
     height: 75px;
-    background-color:#333;
+    background-color: #333;
 }
+
+/* .main-nav:hover {
+    height: 85px;
+} */
+
 .logo {
     height: 56px;
     padding: 10px;
 }
+
 .logo:hover {
-    width: 100px;
+    width: 65px;
 }
+
 .nav-list {
     float: right;
+}
+.no-list-style {
     list-style-type: none;
 }
-.center {
-    text-align: center;
+
+li {
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
 }
+
+li:hover {
+    font-size: 30px;
+    padding: 5px 16px;
+}
+/* End Nav styles */
+
+/* Content styles*/
+.content {
+    height: 900px;
+    padding: 0 50px;
+}
+
+.map-frame {
+    width: 100%;
+}
+
+.audio {
+    width: 300px;
+}
+
+.video {
+    width: 560px;
+    margin-bottom: 10px;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+.button {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.button-success {
+    background: green;
+}
+
+.button-default {
+    color: black;
+    background: #ccc;
+}
+
+.button-danger {
+    background: red;
+}
+
+.button-small {
+    width: 150px;
+}
+
+.button-large {
+    width: 250px;
+}
+/* End Content styles*/
+
+/* Footer styles */
+.footer {
+    background-color: brown;
+}
+
+.social-media {
+    height: 50px;
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* End Footer styles */
