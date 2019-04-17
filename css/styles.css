@@ -133,6 +133,21 @@ li:hover {
     width: 250px;
 }
 
+span {
+    background-color: yellowgreen;
+}
+
+.family > span > span {
+    background-color: orange;
+}
+
+.second-span ~ .first-span {
+    color: red;
+}
+
+ul.social-media > li {
+    padding: 20px 24px;
+}
 /* End Content styles*/
 
 /* Footer styles */
